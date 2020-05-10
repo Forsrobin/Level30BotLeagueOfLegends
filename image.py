@@ -1,7 +1,8 @@
 import numpy as np
 import PIL
+from PIL import Image
 
-image = PIL.Image.open("cVuXE.png")
+image = PIL.Image.open("cVuXE.jpg")
 
 image_data = np.asarray(image)
 image_data_blue = image_data[:,:,2]
