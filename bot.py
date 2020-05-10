@@ -1,9 +1,10 @@
 import os
 from os import path
+from bot_functions import *
 
 def startMenu():
   print("""\033[1;31;40m
-  ___                     ________  ________  __________   
+  ___                     ________  ________   __________   
   |\  \                   |\   __  \|\   __  \|\___   ___\ 
   \ \  \      ____________\ \  \|\ /\ \  \|\  \|___ \  \_| 
    \ \  \    |\____________\ \   __  \ \  \ \  \   \ \  \  
@@ -23,13 +24,20 @@ def menu():
 
 
 def startBot():
-  #Check if bot config exsists
-  if not path.exists("settings/bot.conf"):
+      
+  while True:
     os.system('cls||clear')
-    print("Path does not exsist, please setup your bot first\n")
-    return
+    #Check if bot config exsists
+    if not path.exists("settings/bot.conf"):
+      print("Path does not exsist, please setup your bot first\n")
+      return
 
-  #If config exsists read in all values
+    #Start tage game
+
+    #startGame()
+    #champSelect()
+    #cgangeScreen()
+    input()
 
 def main():
   os.system('cls||clear')
