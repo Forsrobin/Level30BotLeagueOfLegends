@@ -82,7 +82,6 @@ def cgangeScreen():
 def startGame():
 
     matchfound = False
-    cords = ()
 
     #Click play button
     clickElement('play')

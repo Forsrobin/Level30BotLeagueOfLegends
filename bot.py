@@ -1,6 +1,6 @@
 import os
 from os import path
-from bot_functions import *
+from botFunctions import *
 
 def startMenu():
   print("""\033[1;31;40m
